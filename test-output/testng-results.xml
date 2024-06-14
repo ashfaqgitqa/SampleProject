@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-15T03:40:20 IST" name="Default suite" finished-at="2024-06-15T03:40:31 IST" duration-ms="11273">
+    <groups>
+    </groups>
+    <test started-at="2024-06-15T03:40:20 IST" name="Default test" finished-at="2024-06-15T03:40:31 IST" duration-ms="11273">
+      <class name="com.DataDrivenTesting.Utilities.SauceDemoLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.DataDrivenTesting.Utilities.SauceDemoLoginTest@5dda768f]" started-at="2024-06-15T03:40:20 IST" name="setUp" finished-at="2024-06-15T03:40:28 IST" duration-ms="7604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.DataDrivenTesting.Utilities.SauceDemoLoginTest@5dda768f]" started-at="2024-06-15T03:40:29 IST" name="testLogin" data-provider="loginData" finished-at="2024-06-15T03:40:30 IST" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.DataDrivenTesting.Utilities.SauceDemoLoginTest@5dda768f]" started-at="2024-06-15T03:40:30 IST" name="testLogin" data-provider="loginData" finished-at="2024-06-15T03:40:31 IST" duration-ms="718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataDrivenTesting.Utilities.SauceDemoLoginTest@5dda768f]" started-at="2024-06-15T03:40:31 IST" name="tearDown" finished-at="2024-06-15T03:40:31 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataDrivenTesting.Utilities.SauceDemoLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
